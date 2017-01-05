@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--*************************************************-->
+    <!-- Standard header declarations                    -->
+    <!--*************************************************-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ES-DOC-Comparator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="media/images/favicon.ico" />
+
+    <!-- ESDOC Plugin -->
+    <link href="media/esdoc-min.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="media/esdoc-min.js" type="text/javascript"></script>
+
+    <!-- Page CSS -->
+    <link href="ext/css/metafor/std-html-all.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="ext/css/metafor/mf-site-all.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="ext/jquery-ui-1.10.4.custom/css/redmond/jquery-ui-1.10.4.custom.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="compare.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- Page JS -->
+    <script src="ext/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="ext/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="ext/underscore.1.6.0.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div class="page-header">
+        <img src="media/images/logo-1.png"
+             alt="Earth System Documentation"
+             title="Earth System Documentation"/>
+        <span class="esdoc-version"></span>
+        <div class="esdoc-standard-corners">
+            <span>
+                Project
+            </span>
+            <select id="project"
+                    class="esdoc-standard-corners"
+                    title="Select project">
+                <option value="CMIP5" selected="true">CMIP5</option>
+            </select>
+            <span>
+                Comparator
+            </span>
+            <select id="comparatorType"
+                    class="esdoc-standard-corners"
+                    title="Select comparator">
+                <option value="c1" selected="true">Model Component Properties</option>
+            </select>
+            <input type="button"
+                   id="compare"
+                   class="page-compare-button"
+                   value="Open"
+                   title="Open Comparator"/>
+            <input type="button"
+                   id="support"
+                   class="page-support-button"
+                   value="Support"
+                   title="Support"/>
+        </div>
+    </div>
+
+    <div class="page-comparator-container" />
+
+    <!-- Page scripts -->
+    <script src="data/compare.setup.cmip5.c1.json" type="text/javascript"></script>
+    <script src="compare.js" type="text/javascript"></script>
+</body>
+
+</html>

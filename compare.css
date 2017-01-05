@@ -1,0 +1,115 @@
+/* **************************************** */
+/*  HTML DEFAULTS                           */
+/* **************************************** */
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* Body */
+body {
+    width: 980px;
+    margin:auto;
+    font-size:62.5%;
+    font-family: "sans-serif", "Arial", "Verdana", "Helvetica";
+}
+
+/* Forms */
+fieldset {
+  border:0;
+}
+
+legend {
+  display:none;
+}
+
+label {
+    font-weight:bold;
+}
+
+select {
+
+}
+
+input {
+
+}
+
+button {
+    cursor: pointer;
+}
+
+a:hover, a.hover {
+
+}
+
+a:active, a.active {
+
+}
+
+.esdoc-standard-corners {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.esdoc-version {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+/* **************************************** */
+/*  PAGE                                    */
+/* **************************************** */
+.page-header {
+    height: 40px;
+    margin: 15px 0 25px 0;
+}
+
+.page-header img {
+    float:left;
+    cursor: pointer;
+}
+
+.page-header > div {
+    background-color: rgb(139, 139, 219);
+    float: right;
+    margin-top: 3px;
+    padding: 13px 13px 10px 13px;
+}
+
+.page-header > div > select {
+    border:none;
+    color: rgb(139, 139, 219);
+    background-color: white;
+    font-size: 1.6em;
+    margin-left: 0.2em;
+    margin-right: 0.8em;
+}
+
+.page-header > div > span {
+    color: white;
+    font-size: 1.5em;
+}
+
+.page-header .page-compare-button {
+    font-size: 1.3em;
+    margin-top:-4px;
+    width: 70px;
+}
+
+.page-header .page-support-button {
+    font-size: 1.3em;
+    margin-top:-4px;
+    width: 85px;
+    margin-left: 10px;
+}
+
+.page-comparator-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
