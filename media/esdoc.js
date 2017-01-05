@@ -1,5 +1,5 @@
 /*!
- * esdoc-js-client - javascript Library v0.9.5.3
+ * esdoc-js-client - javascript Library v0.9.6.0
  * https://github.com/ES-DOC/esdoc-js-client
  *
  * Copyright 2016, ES-DOC (http://es-doc.org)
@@ -407,7 +407,7 @@ return(!i||i!==r&&!b.contains(r,i))&&(e.type=o.origType,n=o.handler.apply(this,a
     // Initialise root object.
     root.CIM = root.cim = root.ESDOC = root.esdoc = {
         // App version.
-        VERSION: '0.9.5.3',
+        VERSION: '0.9.6.0',
 
         // App name.
         NAME: "Earth System Documentation",
