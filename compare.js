@@ -77,7 +77,7 @@ window.$ = window.$jq = jQuery.noConflict();
 
         // Open header links.
         $('.page-header img').click(function () {
-            ESDOC.utils.openURL("http://es-doc.org", true);
+            ESDOC.utils.openURL("https://es-doc.org", true);
         });
         $('.page-header .page-support-button').click(function () {
             ESDOC.utils.openSupportEmail('Compare');
